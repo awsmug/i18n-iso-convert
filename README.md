@@ -23,3 +23,6 @@ At the moment there are supported the ISO standards for some countries
 
 Feel free to fork the project and add missing countries, languages and standards. We would be glad if you would do a pull request on your changes, that we can add missing languages.
 
+##Attention!
+
+Only some languages are supported yet. We would be glad about help to make the functionality more complete.
