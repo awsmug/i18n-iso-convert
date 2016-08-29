@@ -8,8 +8,8 @@ Convert ISO formats for countries to languages with the PHP function *i18n_iso_c
 <?php
 require_once ( 'i18n-iso-convert-class.php' );
 
-// Converting form ISO 3166-1 alpha-2 (country) to ISO 693-1 (language)
-$converted = i18n_iso_convert( '3166-1-alpha-2', '693-1', 'DK' ); // Returns 'DA' for ISO code 'DK' 
+// Converting form ISO 3166-1 alpha-2 (country) to ISO 639-1 (language)
+$converted = i18n_iso_convert( '3166-1-alpha-2', '639-1', 'DK' ); // Returns 'DA' for ISO code 'DK' 
 ```
 
 ###Supported ISO Standards
@@ -17,7 +17,7 @@ At the moment there are supported the ISO standards for some countries
 
 * ISO 3661-1 alpha 2
 * ISO 3661-1 alpha 3
-* ISO 693-1
+* ISO 639-1
 
 ###Adding more countries and languages
 
